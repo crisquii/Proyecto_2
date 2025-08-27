@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - buenos días
+    - buenas tardes
+    - hola que tal
+    - saludos
+    - hey
+    - hi
+
+- intent: goodbye
+  examples: |
+    - adiós
+    - hasta luego
+    - chao
+    - nos vemos
+    - me despido
+    - bye
+
+- intent: thankyou
+  examples: |
+    - gracias
+    - muchas gracias
+    - te agradezco
+    - genial gracias
+    - perfecto gracias
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres un robot?
+    - eres humano?
+    - eres una persona?
+    - con quién estoy hablando?
+    - qué eres?
+    - eres artificial?
+    - eres una máquina?
+
+- intent: ask_mall_info
+  examples: |
+    - información del centro comercial
+    - horarios del mall
+    - cuáles son los horarios
+    - a qué hora abren
+    - a qué hora cierran
+    - información general
+    - dime sobre el centro comercial
+
+- intent: ask_stores
+  examples: |
+    - qué tiendas hay
+    - cuáles son las tiendas
+    - listado de tiendas
+    - tiendas disponibles
+    - qué locales tienen
+    - marcas disponibles
+    - tiendas del centro comercial
+
+- intent: ask_store_location
+  examples: |
+    - dónde está [Zara](store_name)
+    - ubicación de [Nike](store_name)
+    - en qué piso está [McDonald's](store_name)
+    - cómo llego a [Adidas](store_name)
+    - dónde encuentro [H&M](store_name)
+    - ubicación [Starbucks](store_name)
+
+- intent: ask_products
+  examples: |
+    - qué productos tienen
+    - qué venden en [Zara](store_name)
+    - productos de [Nike](store_name)
+    - qué hay en [McDonald's](store_name)
+    - comida en [Starbucks](store_name)
+    - ropa en [H&M](store_name)
+
+- intent: ask_store_hours
+  examples: |
+    - horarios de [Zara](store_name)
+    - a qué hora abre [Nike](store_name)
+    - horario de [McDonald's](store_name)
+    - cuándo cierra [Starbucks](store_name)
+    - horario de atención [H&M](store_name)
+
+- intent: ask_category_stores
+  examples: |
+    - tiendas de ropa
+    - restaurantes disponibles
+    - tiendas de comida
+    - locales de tecnología
+    - zapaterías
+    - tiendas deportivas
+    - locales de belleza
+    - farmacias
+    - bancos
+
+- intent: ask_parking
+  examples: |
+    - información de parqueadero
+    - dónde parquear
+    - estacionamiento disponible
+    - tarifas de parqueo
+    - parking del centro comercial
+
+- intent: ask_services
+  examples: |
+    - qué servicios tienen
+    - servicios disponibles
+    - cajeros automáticos
+    - baños
+    - wifi
+    - servicio al cliente
+
+- intent: ask_events
+  examples: |
+    - eventos del centro comercial
+    - actividades de hoy
+    - qué eventos hay
+    - promociones actuales
+    - actividades para niños
+
+- intent: ask_contact
+  examples: |
+    - información de contacto
+    - teléfono del centro comercial
+    - cómo contactarlos
+    - dirección del mall
+    - redes sociales

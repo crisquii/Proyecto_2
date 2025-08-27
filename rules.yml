@@ -1,0 +1,48 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Thank user
+  steps:
+  - intent: thankyou
+  - action: utter_thankyou
+
+- rule: Mall information
+  steps:
+  - intent: ask_mall_info
+  - action: utter_mall_info
+
+- rule: Parking information
+  steps:
+  - intent: ask_parking
+  - action: utter_parking_info
+
+- rule: Services information
+  steps:
+  - intent: ask_services
+  - action: utter_services_info
+
+- rule: Events information
+  steps:
+  - intent: ask_events
+  - action: utter_events_info
+
+- rule: Contact information
+  steps:
+  - intent: ask_contact
+  - action: utter_contact_info
